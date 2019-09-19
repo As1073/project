@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>form</title>
+<link rel="stylesheet" href="css/bootstrap.css"/>
+<script type="text/javascript" src="./js/jquery-1.12.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+<div class="row">
+<div class="col-md-offset-2 col-md-8">
+
+	
+<form id="ddnp">
+
+<div class="form-group">
+<label for="uid">uid</label>
+<input type="text" name="uid" class="form-control" id="uid">
+</div>
+
+<div class="form-group">
+<label for="date">date</label>
+<input type="date" name="date" id="date" class="form-control">
+
+ </div>   
+
+
+
+<div class="form-group">
+<label for="city">City</label>
+<input type="text" name="city" class="form-control" id="city">
+</div>
+
+
+<div class="form-group">
+<label for="location">location</label>
+<input type="text" name="location" class="form-control" id="location">
+</div>
+
+
+<div class="form-group">
+<label for="neddycontact">neddycontact</label>
+<input type="text" name="neddycontact" class="form-control" id="neddycontact">
+</div>
+
+
+
+    
+<div class="forn-group">
+<label for="needyname">needyname</label>
+<input type="text" name="needyname" id="needyname" class="form-control"><br>
+</div>
+
+
+<div class="form-group" align="center">
+	 <input type="submit" value="save" name="ddsave" id="ddsave" class="btn btn-success">
+<input type="reset" value="reset" class="btn">
+
+</div>
+</div>
+</div>
+</div>
+
+<script>
+		let btn = document.getElementById('ddsave');
+		console.log(btn);
+
+	btn.addEventListener('click',()=>{
+	alert('Data Saved!')});
+
+	</script>
+
+</form>
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
